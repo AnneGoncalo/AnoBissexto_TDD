@@ -23,4 +23,8 @@ public class AnoBissextoTest extends TestCase{
         AnoBissexto.EhBissexto(-1);
     }
     
+    public void testAnoNaoDivisivelPor4(){
+        assertEquals(AnoBissexto.EhBissexto(2011), false);
+    }
+    
 }
