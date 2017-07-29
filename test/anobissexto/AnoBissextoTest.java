@@ -2,6 +2,7 @@
 package anobissexto;
 
 import junit.framework.TestCase;
+import org.junit.Test;
 
 /**
  *
@@ -17,9 +18,9 @@ public class AnoBissextoTest extends TestCase{
         assertEquals(AnoBissexto.EhBissexto(1732), true);  
     }
     
+    @Test(expected = Exception.class)
     public void testAnoNaoPositivo(){
-            AnoBissexto.EhBissexto(-1);  
-            fail("Ano deve ser positivo");
+        AnoBissexto.EhBissexto(-1);
     }
     
 }
