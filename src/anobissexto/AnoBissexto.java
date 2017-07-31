@@ -15,7 +15,7 @@ public class AnoBissexto {
     }
 
     static boolean EhBissexto(int i) {
-        return false;
+        return true;
     }
     
     
