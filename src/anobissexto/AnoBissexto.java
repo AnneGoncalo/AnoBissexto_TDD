@@ -14,8 +14,8 @@ public class AnoBissexto {
         
     }
 
-    static boolean EhBissexto(int i) {
-        return true;
+    static boolean EhBissexto(int ano) {
+        return (ano % 4 == 0);
     }
     
     
