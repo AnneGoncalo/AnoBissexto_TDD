@@ -25,4 +25,8 @@ public class AnoBissextoTest extends TestCase{
     public void testAnoPositivoDivisivelPor400(){
         assertEquals(AnoBissexto.EhBissexto(1600), true);  
     }
+    
+    public void testAnoNaoPositivo(){
+        assertEquals(AnoBissexto.EhBissexto(-1732), false);
+    }
 }
