@@ -10,4 +10,7 @@ import org.junit.Test;
  */
 public class AnoBissextoTest extends TestCase{
     
+    public void testAnoPositivoDivisivelPor4eNaoPor100(){
+        assertEquals(AnoBissexto.EhBissexto(1732), true);  
+    }
 }

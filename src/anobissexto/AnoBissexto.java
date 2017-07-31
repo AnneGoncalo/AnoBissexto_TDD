@@ -13,6 +13,10 @@ public class AnoBissexto {
     public static void main(String[] args) {
         
     }
+
+    static boolean EhBissexto(int i) {
+        return false;
+    }
     
     
 }
