@@ -15,7 +15,7 @@ public class AnoBissexto {
     }
 
     static boolean EhBissexto(int ano) {
-        return (ano % 4 == 0 && ano % 100 != 0 || ano % 400 == 0);
+        return (ano >= 0 && (ano % 4 == 0 && ano % 100 != 0 || ano % 400 == 0));
     }
     
     
