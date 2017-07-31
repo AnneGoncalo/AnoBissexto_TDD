@@ -22,4 +22,7 @@ public class AnoBissextoTest extends TestCase{
         assertEquals(AnoBissexto.EhBissexto(200), false);  
     }
     
+    public void testAnoPositivoDivisivelPor400(){
+        assertEquals(AnoBissexto.EhBissexto(1600), true);  
+    }
 }
